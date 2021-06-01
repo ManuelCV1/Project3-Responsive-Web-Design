@@ -9,7 +9,7 @@ body{
     width:100%;
     height: 75px;
     z-index: 1;
-    background-color: rgba(255, 255, 255, 0.8);
+    background-color: rgba(255, 255, 255, 0.9);
     font-family: 'Squada One', cursive;
     font-size:1.35rem;
     
@@ -35,25 +35,91 @@ body{
     height: auto;
     display:block;
     margin-top:75px;
+    border-top: solid;
+    border-bottom: solid;
+    border-color:red;
   }
 
-  .fondo-gris{
+  .Descubre-div{
     margin-top: 50px;
   
  
-    background-color:#eee;
+    background-color:#000;
  
     border-top:solid;
     border-bottom: solid;
+    border-color: #f00;
     font-family: 'PT Serif', serif;
     font-size:3.5rem ;
     text-align: center;
+    color: white;
   }
 
   .Descubre{
 padding: 1rem;
 margin: 0;
   }
+
+  .primer-producto-div{
+  display: flex;
+  background-color: #000;
+  margin-top: 80px;
+  border-top:solid;
+  border-bottom: solid;
+  border-color: red;
+  font-family: 'Noto Serif', serif;
+  }
+
+  .KairosDeluxeFoto{
+   margin: 40px 60px;
+  }
+
+  #KairosDeluxeFoto{
+    width: 15rem;
+    box-shadow: 5px 5px 4px 4px rgba(255, 0, 0, 0.7);
+  }
+
+  .texto-primer-producto{
+  box-sizing: border-box;
+  padding: 25px 50px;
+  color:white;
+  text-align:justify;
+  }
+
+  h1.KairosDeluxe{
+font-style: italic;
+  }
+
+  .segundo-producto-div{
+    display: flex;
+    background-color: #000;
+    margin-top: 80px;
+    border-top:solid;
+    border-bottom: solid;
+    border-color: red;
+    font-family: 'Noto Serif', serif;
+    }
+  
+    .cafelovetorta-foto{
+     margin: 40px 60px;
+    }
+  
+    #cafelovetorta-foto{
+      width: 15rem;
+      box-shadow: 5px 5px 4px 4px rgba(255, 0, 0, 0.7);
+    }
+  
+    .texto-segundo-producto{
+    box-sizing: border-box;
+    padding: 25px 50px;
+    color:white;
+    text-align:justify;
+    }
+  
+    h1.Cafelovetorta{
+  font-style: italic;
+    }
+
   #wrap-main-page{
     margin-top:75px;
     width:100%;
