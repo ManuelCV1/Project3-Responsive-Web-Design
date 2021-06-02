@@ -1,5 +1,6 @@
 body{
   margin: 0;
+  background-color: #eee;
 }
 
 #header{
@@ -81,7 +82,7 @@ margin: 0;
 
   .texto-primer-producto{
   box-sizing: border-box;
-  padding: 25px 50px;
+  padding: 25px 80px 25px 50px;
   color:white;
   text-align:justify;
   }
@@ -101,7 +102,7 @@ font-style: italic;
     }
   
     .cafelovetorta-foto{
-     margin: 40px 60px;
+     margin: 40px 80px 40px 60px;
     }
   
     #cafelovetorta-foto{
@@ -111,7 +112,7 @@ font-style: italic;
   
     .texto-segundo-producto{
     box-sizing: border-box;
-    padding: 25px 50px;
+    padding: 25px 80px 25px 60px;
     color:white;
     text-align:justify;
     }
@@ -119,6 +120,48 @@ font-style: italic;
     h1.Cafelovetorta{
   font-style: italic;
     }
+
+    .Tercer-producto-div{
+      display: flex;
+      background-color: #000;
+      margin-top: 80px;
+      border-top:solid;
+      border-bottom: solid;
+      border-color: red;
+      font-family: 'Noto Serif', serif;
+      }
+    
+      .KairosNiceFoto{
+       margin: 40px 60px;
+      }
+    
+      #KairosNiceFoto{
+        width: 15rem;
+        box-shadow: 5px 5px 4px 4px rgba(255, 0, 0, 0.7);
+      }
+    
+      .texto-tercer-producto{
+      box-sizing: border-box;
+      padding: 25px 80px 25px 50px;
+      color:white;
+      text-align:justify;
+      }
+    
+      h1.KairosNice{
+    font-style: italic;
+      }
+   
+      .video{
+        padding-top: 80px;   
+      }
+
+      #video{
+        display: block;
+      margin: auto;    
+      border:solid;
+      border-color: #f00;
+      border-radius: 5px;
+      }
 
   #wrap-main-page{
     margin-top:75px;
