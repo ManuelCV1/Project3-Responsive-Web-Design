@@ -27,7 +27,10 @@ body{
 
   a{
     text-decoration:none;
-    color:inherit;
+    color: inherit;
+  }
+
+  a.nav-link{
     padding-right:25px; 
   }
 
@@ -161,6 +164,32 @@ font-style: italic;
       border:solid;
       border-color: #f00;
       border-radius: 5px;
+      }
+
+.Contacto-wrap{
+  margin-top: 80px;
+}
+
+#title-contatc{
+text-align: center;
+font-family: 'Noto Serif', serif;
+font-size: 1.5rem ;
+}
+
+.Contacto{
+  display: flex;
+  justify-content: center;
+}
+
+.Red-social-div{
+  padding: 40px;
+  margin: 0;
+  text-align: center;
+  font-family: 'Noto Serif', serif;
+}
+
+      .iconos{
+        height: 50px;     
       }
 
   #wrap-main-page{
