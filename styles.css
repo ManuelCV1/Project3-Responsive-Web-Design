@@ -45,18 +45,40 @@ body{
   }
 
   .Descubre-div{
-    margin-top: 50px;
+    margin-top: 3rem;
   
  
-    background-color:#000;
+    background-color:#eee;
  
     border-top:solid;
     border-bottom: solid;
-    border-color: #f00;
-    font-family: 'PT Serif', serif;
-    font-size:3.5rem ;
+    border-color: #eee;
+    font-family: 'Noto Serif', serif;
+    font-size:3rem ;
+    font-style: italic;
     text-align: center;
-    color: white;
+    color: #000;
+  }
+
+  @media (max-width: 800px) {
+    .Descubre-div{
+      font-size: 2rem;
+    }
+    .Descubre{
+      padding: 0.5rem;
+    }
+    .primer-producto-div{
+      flex-wrap: wrap-reverse;
+      margin-top: 2rem;
+    }
+    .segundo-producto-div{
+      flex-wrap: wrap;
+      margin-top: 2rem;
+    }
+    .Tercer-producto-div{
+      flex-wrap: wrap-reverse;
+      margin-top: 2rem;
+    }
   }
 
   .Descubre{
@@ -66,16 +88,16 @@ margin: 0;
 
   .primer-producto-div{
   display: flex;
-  background-color: #000;
-  margin-top: 80px;
+  background-color: #eee;
+  margin-top: 3rem;
   border-top:solid;
   border-bottom: solid;
-  border-color: red;
+  border-color: #eee;
   font-family: 'Noto Serif', serif;
   }
 
   .KairosDeluxeFoto{
-   margin: 40px 60px;
+   margin: 40px 80px;
   }
 
   #KairosDeluxeFoto{
@@ -85,8 +107,8 @@ margin: 0;
 
   .texto-primer-producto{
   box-sizing: border-box;
-  padding: 25px 80px 25px 50px;
-  color:white;
+  padding: 55px 120px 25px 50px;
+  color:#000;
   text-align:justify;
   }
 
@@ -96,11 +118,11 @@ font-style: italic;
 
   .segundo-producto-div{
     display: flex;
-    background-color: #000;
-    margin-top: 80px;
+    background-color: #eee;
+    margin-top: 3rem;
     border-top:solid;
     border-bottom: solid;
-    border-color: red;
+    border-color: #eee;
     font-family: 'Noto Serif', serif;
     }
   
@@ -116,7 +138,7 @@ font-style: italic;
     .texto-segundo-producto{
     box-sizing: border-box;
     padding: 25px 80px 25px 60px;
-    color:white;
+    color:#000;
     text-align:justify;
     }
   
@@ -126,11 +148,11 @@ font-style: italic;
 
     .Tercer-producto-div{
       display: flex;
-      background-color: #000;
-      margin-top: 80px;
+      background-color: #eee;
+      margin-top: 3rem;
       border-top:solid;
       border-bottom: solid;
-      border-color: red;
+      border-color: #eee;
       font-family: 'Noto Serif', serif;
       }
     
@@ -146,7 +168,7 @@ font-style: italic;
       .texto-tercer-producto{
       box-sizing: border-box;
       padding: 25px 80px 25px 50px;
-      color:white;
+      color:#000;
       text-align:justify;
       }
     
@@ -155,15 +177,17 @@ font-style: italic;
       }
    
       .video{
-        padding-top: 80px;   
+margin: 5rem 14rem;
+border: solid;
+border-color: red;
+border-radius: 5px;
       }
 
       #video{
-        display: block;
-      margin: auto;    
-      border:solid;
-      border-color: #f00;
-      border-radius: 5px;
+       width: 100%;
+       height: 315px;
+       display:block;
+       
       }
 
 .Contacto-wrap{
@@ -193,9 +217,17 @@ font-size: 1.5rem ;
       }
 
   #wrap-main-page{
+    display: none;
     margin-top:75px;
     width:100%;
     z-index:0;
   }
 
+  footer{
+    font-family:'Noto Serif', serif;
+    font-size: .9rem;
+    padding: 20px 0 10px 5px;
+    margin-top: 20px;
+    background-color: white;
+  }
  
