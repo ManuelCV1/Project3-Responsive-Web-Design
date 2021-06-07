@@ -219,6 +219,10 @@ font-size: 1.5rem ;
     margin-top: 20px;
     background-color: white;
   }
+
+  br{
+    display: none;
+  }
  
   @media (max-width: 800px) {
     .Descubre-div{
@@ -254,6 +258,9 @@ font-size: 1.5rem ;
     }
     .video{
       margin: 5rem 10%;
+    }
+    br{
+      display:block;
     }
   }
 
